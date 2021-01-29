@@ -1,0 +1,30 @@
+*{
+    margin: 10;
+    padding: 5;
+}
+
+
+#heading{
+   
+    text-align: center;
+}
+#head3{
+    text-decoration: underline;
+    color: brown;
+}
+
+#lblname{
+    font-weight: bold;
+    font-size: 20;
+}
+
+#cate1{
+    margin: 10px;
+    padding: 20px ;
+    color: brown;
+}
+#submit{
+  font-size: 25;
+  background-color: brown;
+
+}

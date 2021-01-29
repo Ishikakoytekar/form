@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <title>javascript practise</title>
+        <link rel="stylesheet" href="style.css">
+        <script type="text/javascript">
+        function fn(){
+            alert("Successfully Submitted");
+        }
+        </script>
+        
+    </head>
+    <body>
+        <form onsubmit="fn()">
+        <h1 id="heading">Cricket League 2021</h1>
+        <h2 id="heading">Registration Form</h2>
+        <h3 id="head3">Fill Your Details</h3><br><br>
+
+        <label id="lblname">Player Name</label>
+        <input type="text" placeholder="first-name" id="name" required/>
+        <input type="text" placeholder="last-name" id="name" required/><br><br>
+
+        <label id="lblname">Address</label>
+        <input type="text" placeholder="Address" id="address" required/><br><br>
+
+        <label id="lblname">Date Of Birth</label>
+        <input type="datetime-local" id="dob" required/><br><br>
+
+
+        <label id="lblname">E-mail</label>
+        <input type="email" placeholder="email" id="email" required/><br><br>
+
+       
+        <label id="lblname">Cricket Skill Level</label><br>
+        <div id="cate">
+        <input type="radio" name="g" >1</input><br>
+        <input type="radio" name="g" >2</input><br>
+        <input type="radio" name="g" >3</input><br>
+        <input type="radio" name="g" >4</input><br>
+        <input type="radio" name="g" >5</input><br><br>
+        </div>
+
+        
+        <label id="lblname">Age</label>
+        <input type="text" placeholder="Age" id="age" required/><br><br>
+
+        
+        <label id="lblname">Sex</label>
+        <input type="radio" name="g2" >M</input>
+        <input type="radio" name="g2" >F</input><br><br>
+
+        
+        <label id="lblname">Experience</label>
+        <select>
+            <option>Taluka</option>
+            <option>District</option>
+            <option>State</option>
+            <option>National</option>
+            <option>International</option>
+            
+        </select><br><br>
+        <button type="submit" id="submit">Submit</button>
+        </form>
+
+    </body>
+</html>
